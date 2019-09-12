@@ -4,9 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>CrystalsCollector</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <audio id="banger" src="images/RuneScape - Sea Shanty 2.mp3"></audio>
+    <h1>CrystalsCollector!</h1>
+
+    <div id="main">
+        <p class="main-text">You will be given a random number at the start of the game</p>
+        <br>
+        <p class="main-text">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <br>
+        <p class="main-text">You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+        <br>
+        <p class="main-text">The value of each crystal is hidden from youi until you click on it</p>
+        <br>
+        <p class="main-text">Each time when the game starts, the game will change the values of each crystal</p>
+    </div>
+
+    <div id="target-score">0</div>
+
+    <div id="winrar">
+        <div id="message"></div>
+        <div id="wincounter"></div>
+    </div>
+
+    <div id="score-counter"></div>
+
+<div id="crystalcontainer">
+    <div id="crystal1"><img class="crystal" src="images/120px-Zenyte_detail.webp" alt="Orange Crystal"></div>
+    <div id="crystal2"><img class="crystal" src="images/130px-Emerald_detail.webp" alt="Green Crystal"></div>
+    <div id="crystal3"><img class="crystal" src="images/130px-Ruby_detail.webp" alt="Red Crystal"></div>
+    <div id="crystal4"><img class="crystal" src="images/130px-Sapphire_detail.webp" alt="Blue Crystal"></div>
+</div>
+   
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="javascript/game.js"></script>
 </body>
 </html>

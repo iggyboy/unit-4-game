@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("https://i.ytimg.com/vi/ldN9fNhZcsQ/hqdefault.jpg");
+}
+
+h1 {
+    font-size: 40px;
+    background-color: orange;
+    color:white;
+    width:30%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.main-text {
+    color: green;
+}
+
+.crystal {
+    width: 50px;
+    display: inline-block;
+}
+
+#main {
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#target-score {
+    font-size: 30px;
+    background-color: teal;
+    width: 50px;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+#winrar {
+    background-color: red;
+    width: 100px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+#score-counter {
+    font-size: 30px;
+    background-color: yellow;
+    width: 50px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#crystalcontainer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#crystalcontainer div {
+    display: inline-block;
+}
+
